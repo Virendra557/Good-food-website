@@ -1,0 +1,39 @@
+.my{
+    height: 10px;
+    width: 10px;
+    border-radius: 50px;
+    margin: 10px;
+    text-decoration: none;
+   
+  }
+
+  .my i{
+    transition: all 0.3s linear;
+  }
+  .my:hover i{
+    transform: scale(1.4);
+
+  }
+  .fa-instagram{
+    color: crimson;
+  }
+  .fa-facebook{
+    color: cornflowerblue;
+
+  }
+  .fa-whatsapp{
+   color: limegreen;
+  }
+  .fa-2x{
+
+    background: url("images/footer_pattern.png");
+  }
+  .my:hover:nth-child(1){
+    background-color: #1877F2;
+  }
+  .my:hover:nth-child(2){
+    background-color: #E4405F;
+  }
+  .my:hover:nth-child(3){
+    background-color: #25D366;
+  }
